@@ -6352,6 +6352,15 @@ a.text-dark:hover, a.text-dark:focus {
     width: 100%;
     background: rgba(0, 0, 0, 0.7); }
 
+#about-header {
+  height: 200px;
+  background: url("../img/image1.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
 #video-play {
   position: relative;
   min-height: 200px;
@@ -6370,3 +6379,6 @@ a.text-dark:hover, a.text-dark:focus {
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.7); }
+
+#about .about-img {
+  margin-top: -50px; }
