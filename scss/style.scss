@@ -1,0 +1,74 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+@mixin overlay() {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+  .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .active {
+    border-left: #4444 solid 3px;
+  }
+}
+
+#showcase {
+  .carousel-item {
+    height: 450px;
+  }
+
+  .carousel-image-1 {
+    background: url(../img/image1.jpg);
+    background-size: cover;
+  }
+
+  .carousel-image-2 {
+    background: url(../img/image2.jpg);
+    background-size: cover;
+  }
+  .carousel-image-3 {
+    background: url(../img/image3.jpg);
+    background-size: cover;
+  }
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+
+  .dark-overlay {
+    @include overlay();
+  }
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/media.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300;
+  text-align: center;
+  color: #fff;
+
+  a {
+    color: #fff;
+  }
+  .dark-overlay {
+    @include overlay();
+  }
+}
