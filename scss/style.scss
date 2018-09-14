@@ -87,3 +87,22 @@
     margin-top: -50px;
   }
 }
+
+#faq {
+  .card {
+    border: #444;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .card-body {
+    background: #333;
+  }
+
+  .card-header {
+    background: #333;
+  }
+}
