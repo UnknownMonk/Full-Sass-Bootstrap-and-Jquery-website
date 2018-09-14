@@ -6395,3 +6395,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 #faq .card-header {
   background: #333; }
+
+#main-footer {
+  background: #000;
+  color: white; }
